@@ -1,0 +1,98 @@
+[
+  {
+    "location": "Karunagappally",
+    "pickups_out_trips": 1922,
+    "dropoffs_in_trips": 1195,
+    "total_trips": 3117,
+    "weighted_pagerank": 0.24213,
+    "betweenness_centrality": 0.0
+  },
+  {
+    "location": "Railway Station",
+    "pickups_out_trips": 833,
+    "dropoffs_in_trips": 1242,
+    "total_trips": 2075,
+    "weighted_pagerank": 0.19935,
+    "betweenness_centrality": 0.0
+  },
+  {
+    "location": "KSRTC Bus Stand",
+    "pickups_out_trips": 1227,
+    "dropoffs_in_trips": 1621,
+    "total_trips": 2848,
+    "weighted_pagerank": 0.23975,
+    "betweenness_centrality": 0.0
+  },
+  {
+    "location": "Oachira",
+    "pickups_out_trips": 98,
+    "dropoffs_in_trips": 91,
+    "total_trips": 189,
+    "weighted_pagerank": 0.03265,
+    "betweenness_centrality": 0.0
+  },
+  {
+    "location": "Chavara",
+    "pickups_out_trips": 97,
+    "dropoffs_in_trips": 95,
+    "total_trips": 192,
+    "weighted_pagerank": 0.03075,
+    "betweenness_centrality": 0.15333
+  },
+  {
+    "location": "Sasthamkotta",
+    "pickups_out_trips": 45,
+    "dropoffs_in_trips": 44,
+    "total_trips": 89,
+    "weighted_pagerank": 0.0216,
+    "betweenness_centrality": 0.37061
+  },
+  {
+    "location": "Mynagappally",
+    "pickups_out_trips": 98,
+    "dropoffs_in_trips": 75,
+    "total_trips": 173,
+    "weighted_pagerank": 0.02892,
+    "betweenness_centrality": 0.01818
+  },
+  {
+    "location": "Thazhava",
+    "pickups_out_trips": 88,
+    "dropoffs_in_trips": 70,
+    "total_trips": 158,
+    "weighted_pagerank": 0.02745,
+    "betweenness_centrality": 0.08788
+  },
+  {
+    "location": "Clappana",
+    "pickups_out_trips": 53,
+    "dropoffs_in_trips": 36,
+    "total_trips": 89,
+    "weighted_pagerank": 0.02078,
+    "betweenness_centrality": 0.40591
+  },
+  {
+    "location": "Vallikavu",
+    "pickups_out_trips": 166,
+    "dropoffs_in_trips": 145,
+    "total_trips": 311,
+    "weighted_pagerank": 0.04848,
+    "betweenness_centrality": 0.22076
+  },
+  {
+    "location": "Amritapuri",
+    "pickups_out_trips": 190,
+    "dropoffs_in_trips": 212,
+    "total_trips": 402,
+    "weighted_pagerank": 0.06262,
+    "betweenness_centrality": 0.0
+  },
+  {
+    "location": "Puthiyakavu",
+    "pickups_out_trips": 183,
+    "dropoffs_in_trips": 174,
+    "total_trips": 357,
+    "weighted_pagerank": 0.04553,
+    "betweenness_centrality": 0.0
+  }
+]

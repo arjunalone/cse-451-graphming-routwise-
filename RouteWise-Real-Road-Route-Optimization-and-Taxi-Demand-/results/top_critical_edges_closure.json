@@ -1,0 +1,50 @@
+[
+  {
+    "pair_id": 7,
+    "origin": "KSRTC Bus Stand",
+    "destination": "Vallikavu",
+    "edge_index_in_path": 41,
+    "closed_u": "9449219141",
+    "closed_v": "3399669802",
+    "closed_key": 0,
+    "road_name": "Unnamed road",
+    "length_m": 231.8,
+    "original_distance_km": 8.45,
+    "detour_distance_km": 17.37,
+    "detour_increase_km": 8.92,
+    "pct_increase": 105.56,
+    "disconnected": false
+  },
+  {
+    "pair_id": 7,
+    "origin": "KSRTC Bus Stand",
+    "destination": "Vallikavu",
+    "edge_index_in_path": 43,
+    "closed_u": "12197246450",
+    "closed_v": "2570500603",
+    "closed_key": 0,
+    "road_name": "Unnamed road",
+    "length_m": 1496.7,
+    "original_distance_km": 8.45,
+    "detour_distance_km": 17.37,
+    "detour_increase_km": 8.92,
+    "pct_increase": 105.56,
+    "disconnected": false
+  },
+  {
+    "pair_id": 7,
+    "origin": "KSRTC Bus Stand",
+    "destination": "Vallikavu",
+    "edge_index_in_path": 40,
+    "closed_u": "2570484447",
+    "closed_v": "9449219141",
+    "closed_key": 0,
+    "road_name": "Unnamed road",
+    "length_m": 273.3,
+    "original_distance_km": 8.45,
+    "detour_distance_km": 17.37,
+    "detour_increase_km": 8.92,
+    "pct_increase": 105.56,
+    "disconnected": false
+  }
+]

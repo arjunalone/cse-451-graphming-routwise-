@@ -1,0 +1,11 @@
+rank,u,v,key,name,highway,length_m,oneway,betweenness_centrality
+1,5413697459,10108424725,0,Salem - Kochi - Kanyakumari Road,trunk,248.6,False,0.00387
+2,10108424725,7708928161,0,"Salem - Kochi - Kanyakumari Road, Kannetti Bridge",trunk,278.0,False,0.003868
+3,9766196009,8505816105,0,Salem - Kochi - Kanyakumari Road,trunk,84.0,False,0.003643
+4,7708928161,10108424725,0,"Salem - Kochi - Kanyakumari Road, Kannetti Bridge",trunk,278.0,False,0.003637
+5,8505816105,5413697459,0,Salem - Kochi - Kanyakumari Road,trunk,84.7,False,0.003635
+6,10108424725,5413697459,0,Salem - Kochi - Kanyakumari Road,trunk,248.6,False,0.00363
+7,7708928161,4448775361,0,Salem - Kochi - Kanyakumari Road,trunk,148.6,False,0.003583
+8,4448775361,7708928161,0,Salem - Kochi - Kanyakumari Road,trunk,148.6,False,0.003507
+9,9631568913,11085088099,0,Salem - Kochi - Kanyakumari Road,trunk,59.9,False,0.003493
+10,4428761768,4456425136,0,Salem - Kochi - Kanyakumari Road,trunk,11.5,False,0.003486

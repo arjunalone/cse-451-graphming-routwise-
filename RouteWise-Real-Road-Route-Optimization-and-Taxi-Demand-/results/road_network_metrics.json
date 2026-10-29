@@ -1,0 +1,46 @@
+{
+  "node_count": 9634,
+  "edge_count": 24899,
+  "is_directed": true,
+  "is_multigraph": true,
+  "wcc_count": 1,
+  "largest_wcc_size": 9634,
+  "scc_count": 2,
+  "largest_scc_size": 9633,
+  "scc_sizes": [
+    9633,
+    1
+  ],
+  "degree_stats": {
+    "in_degree": {
+      "min": 1,
+      "max": 5,
+      "mean": 2.584,
+      "median": 3.0,
+      "std": 0.911
+    },
+    "out_degree": {
+      "min": 0,
+      "max": 5,
+      "mean": 2.584,
+      "median": 3.0,
+      "std": 0.911
+    },
+    "total_degree": {
+      "min": 1,
+      "max": 10,
+      "mean": 5.169,
+      "median": 6.0,
+      "std": 1.821
+    }
+  },
+  "segment_length_stats_m": {
+    "count": 24899,
+    "total_network_km": 4595.96,
+    "min_m": 0.7,
+    "max_m": 3142.6,
+    "mean_m": 184.58,
+    "median_m": 142.19,
+    "std_m": 160.89
+  }
+}

@@ -1,0 +1,13 @@
+pair_id,origin,destination,corridor_description,dijkstra_distance_km,osrm_distance_km,osrm_duration_min,distance_pct_difference,dijkstra_runtime_ms_mean,dijkstra_runtime_ms_std,astar_runtime_ms_mean,astar_runtime_ms_std,astar_speedup
+1,Karunagappally,Chavara,Southbound commercial/industrial corridor (NH 66),8.24,8.22,9.6,0.24,44.01,8.04,12.99,2.6,3.39
+2,Karunagappally,Oachira,Northbound temple town corridor (NH 66),9.36,9.36,8.4,0.0,44.63,5.42,1.85,0.72,24.12
+3,Karunagappally,Amritapuri,Westbound university corridor,9.05,8.79,13.5,2.96,8.65,1.55,11.73,1.49,0.74
+4,Karunagappally,Sasthamkotta,Eastbound lake/inland corridor,11.64,11.67,13.1,0.26,36.67,35.73,4.02,0.86,9.12
+5,Railway Station,Amritapuri,Intermodal rail-to-university transit corridor,10.05,9.8,14.9,2.55,9.43,0.97,12.39,2.03,0.76
+6,KSRTC Bus Stand,Chavara,Bus depot to southern industrial belt,8.08,8.12,9.5,0.49,15.23,1.64,4.54,0.93,3.35
+7,KSRTC Bus Stand,Vallikavu,Bus depot to coastal ferry/bridge landing,8.45,8.71,12.8,2.99,4.74,1.29,7.11,0.71,0.67
+8,Oachira,Amritapuri,North-to-west coastal connection,8.78,8.98,13.4,2.23,5.99,2.25,8.15,0.76,0.73
+9,Amritapuri,Chavara,University to southern district,16.73,16.83,23.1,0.59,34.83,3.39,11.27,1.28,3.09
+10,Railway Station,Sasthamkotta,Rail station to inland administrative hub,11.96,12.68,14.5,5.68,29.57,28.77,3.69,0.65,8.01
+11,Thazhava,Clappana,Suburban residential east-west link,4.11,4.64,7.2,11.42,1.72,0.9,0.72,0.12,2.39
+12,Puthiyakavu,Mynagappally,Junction north of town to railway village,7.75,8.2,11.5,5.49,11.65,1.34,2.27,0.42,5.13

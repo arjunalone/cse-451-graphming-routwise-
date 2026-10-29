@@ -1,0 +1,230 @@
+{
+  "Karunagappally::Chavara": {
+    "distance_km": 8.22,
+    "duration_min": 9.6,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 577.5,
+          "summary": "",
+          "duration": 577.5,
+          "distance": 8215.6
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 577.5,
+      "duration": 577.5,
+      "distance": 8215.6
+    }
+  },
+  "Karunagappally::Oachira": {
+    "distance_km": 9.36,
+    "duration_min": 8.4,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 503,
+          "summary": "",
+          "duration": 503,
+          "distance": 9360.5
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 503,
+      "duration": 503,
+      "distance": 9360.5
+    }
+  },
+  "Karunagappally::Amritapuri": {
+    "distance_km": 8.79,
+    "duration_min": 13.5,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 812.6,
+          "summary": "",
+          "duration": 812.6,
+          "distance": 8787.6
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 812.6,
+      "duration": 812.6,
+      "distance": 8787.6
+    }
+  },
+  "Karunagappally::Sasthamkotta": {
+    "distance_km": 11.67,
+    "duration_min": 13.1,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 787.4,
+          "summary": "",
+          "duration": 787.4,
+          "distance": 11668.7
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 787.4,
+      "duration": 787.4,
+      "distance": 11668.7
+    }
+  },
+  "Railway Station::Amritapuri": {
+    "distance_km": 9.8,
+    "duration_min": 14.9,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 894.8,
+          "summary": "",
+          "duration": 894.8,
+          "distance": 9801.1
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 894.8,
+      "duration": 894.8,
+      "distance": 9801.1
+    }
+  },
+  "KSRTC Bus Stand::Chavara": {
+    "distance_km": 8.12,
+    "duration_min": 9.5,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 568.9,
+          "summary": "",
+          "duration": 568.9,
+          "distance": 8117.5
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 568.9,
+      "duration": 568.9,
+      "distance": 8117.5
+    }
+  },
+  "KSRTC Bus Stand::Vallikavu": {
+    "distance_km": 8.71,
+    "duration_min": 12.8,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 765.9,
+          "summary": "",
+          "duration": 765.9,
+          "distance": 8708.3
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 765.9,
+      "duration": 765.9,
+      "distance": 8708.3
+    }
+  },
+  "Oachira::Amritapuri": {
+    "distance_km": 8.98,
+    "duration_min": 13.4,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 805.7,
+          "summary": "",
+          "duration": 805.7,
+          "distance": 8983
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 805.7,
+      "duration": 805.7,
+      "distance": 8983
+    }
+  },
+  "Amritapuri::Chavara": {
+    "distance_km": 16.83,
+    "duration_min": 23.1,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 1388.7,
+          "summary": "",
+          "duration": 1388.7,
+          "distance": 16829
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 1388.7,
+      "duration": 1388.7,
+      "distance": 16829
+    }
+  },
+  "Railway Station::Sasthamkotta": {
+    "distance_km": 12.68,
+    "duration_min": 14.5,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 869.6,
+          "summary": "",
+          "duration": 869.6,
+          "distance": 12682.2
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 869.6,
+      "duration": 869.6,
+      "distance": 12682.2
+    }
+  },
+  "Thazhava::Clappana": {
+    "distance_km": 4.64,
+    "duration_min": 7.2,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 433.4,
+          "summary": "",
+          "duration": 433.4,
+          "distance": 4637.5
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 433.4,
+      "duration": 433.4,
+      "distance": 4637.5
+    }
+  },
+  "Puthiyakavu::Mynagappally": {
+    "distance_km": 8.2,
+    "duration_min": 11.5,
+    "raw": {
+      "legs": [
+        {
+          "steps": [],
+          "weight": 692,
+          "summary": "",
+          "duration": 692,
+          "distance": 8199.5
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 692,
+      "duration": 692,
+      "distance": 8199.5
+    }
+  }
+}

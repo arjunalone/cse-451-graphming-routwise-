@@ -1,0 +1,212 @@
+[
+  {
+    "resolution": 0.5,
+    "seed": 1,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 2,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 3,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 4,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 5,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 6,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 7,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 8,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 9,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 0.5,
+    "seed": 10,
+    "num_communities": 2,
+    "modularity_Q": 0.07223,
+    "communities": "C1(10): Chavara,Clappana,KSRTC Bus Stand,Karunagappally,Mynagappally,Oachira,Puthiyakavu,Railway Station,Sasthamkotta,Thazhava | C2(2): Amritapuri,Vallikavu"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 1,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 2,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 3,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 4,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 5,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 6,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 7,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 8,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 9,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.0,
+    "seed": 10,
+    "num_communities": 2,
+    "modularity_Q": 0.13637,
+    "communities": "C1(9): Amritapuri,Chavara,Clappana,Mynagappally,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(3): KSRTC Bus Stand,Karunagappally,Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 1,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 2,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 3,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 4,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 5,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 6,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 7,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 8,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 9,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  },
+  {
+    "resolution": 1.5,
+    "seed": 10,
+    "num_communities": 4,
+    "modularity_Q": 0.02236,
+    "communities": "C1(7): Amritapuri,Clappana,Oachira,Puthiyakavu,Sasthamkotta,Thazhava,Vallikavu | C2(2): Chavara,Mynagappally | C3(2): KSRTC Bus Stand,Karunagappally | C4(1): Railway Station"
+  }
+]

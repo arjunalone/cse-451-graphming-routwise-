@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "u": "5413697459",
+    "v": "10108424725",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 248.6,
+    "oneway": false,
+    "betweenness_centrality": 0.00387
+  },
+  {
+    "rank": 2,
+    "u": "10108424725",
+    "v": "7708928161",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road, Kannetti Bridge",
+    "highway": "trunk",
+    "length_m": 278.0,
+    "oneway": false,
+    "betweenness_centrality": 0.003868
+  },
+  {
+    "rank": 3,
+    "u": "9766196009",
+    "v": "8505816105",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 84.0,
+    "oneway": false,
+    "betweenness_centrality": 0.003643
+  },
+  {
+    "rank": 4,
+    "u": "7708928161",
+    "v": "10108424725",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road, Kannetti Bridge",
+    "highway": "trunk",
+    "length_m": 278.0,
+    "oneway": false,
+    "betweenness_centrality": 0.003637
+  },
+  {
+    "rank": 5,
+    "u": "8505816105",
+    "v": "5413697459",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 84.7,
+    "oneway": false,
+    "betweenness_centrality": 0.003635
+  },
+  {
+    "rank": 6,
+    "u": "10108424725",
+    "v": "5413697459",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 248.6,
+    "oneway": false,
+    "betweenness_centrality": 0.00363
+  },
+  {
+    "rank": 7,
+    "u": "7708928161",
+    "v": "4448775361",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 148.6,
+    "oneway": false,
+    "betweenness_centrality": 0.003583
+  },
+  {
+    "rank": 8,
+    "u": "4448775361",
+    "v": "7708928161",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 148.6,
+    "oneway": false,
+    "betweenness_centrality": 0.003507
+  },
+  {
+    "rank": 9,
+    "u": "9631568913",
+    "v": "11085088099",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 59.9,
+    "oneway": false,
+    "betweenness_centrality": 0.003493
+  },
+  {
+    "rank": 10,
+    "u": "4428761768",
+    "v": "4456425136",
+    "key": 0,
+    "name": "Salem - Kochi - Kanyakumari Road",
+    "highway": "trunk",
+    "length_m": 11.5,
+    "oneway": false,
+    "betweenness_centrality": 0.003486
+  }
+]

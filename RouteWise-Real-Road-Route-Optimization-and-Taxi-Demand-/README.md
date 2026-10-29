@@ -1,0 +1,116 @@
+RouteWise — Real-Road Route Optimization and Taxi Demand Analysis
+RouteWise is an interactive Graph Mining case study focused on road connectivity and taxi-demand patterns around Karunagappally, Kerala. It combines a real, directed OpenStreetMap (OSM) road graph for geographic routing with a separate deterministic synthetic dataset of 5,000 taxi trips for demand analysis.
+Data integrity: Real roads and simulated trips are never presented as the same dataset. RouteWise does not provide live traffic, official taxi fares, or verified road conditions.
+
+Features
+- Real-road shortest paths: NetworkX Dijkstra on the cached OSM road graph, weighted by road-segment length.
+- Route comparison: Display OSRM driving alternatives and compare estimated travel time and estimated fare when available.
+- Interactive map: Leaflet with OpenStreetMap tiles for geographic routes and markers.
+- Network Explorer: Switch between synthetic taxi-demand relationships and an OSM-derived, simplified landmark road network. Route selections and alternatives are synchronized with the geographic map where a corresponding landmark representation exists.
+- Graph Mining: Louvain community detection on synthetic taxi demand and bounded approximate betweenness centrality on the real road network.
+- Road-closure what-if analysis: Temporarily remove a directed OSM edge from a local graph copy and recompute the shortest path.
+- Dashboard and data inspection: Explore graph statistics, route details, network relationships, and visual analysis.
+Datasets and graph models
+Component	Source	Graph model	Purpose
+Road network	OpenStreetMap via OSMnx	Directed, weighted MultiDiGraph; nodes are road junctions/endpoints, edges are road segments	Real-road shortest paths and network analysis
+Taxi demand	Deterministic synthetic generator	Directed, weighted landmark graph; edge weight represents trip frequency	Demand patterns and Louvain communities
+Landmark road explorer	Derived from the OSM road graph	Simplified connectivity between 12 named landmarks	Understandable network visualization; not a display of individual road segments
+
+
+In the reported project run, the cached road graph contained 9,634 nodes and 24,899 directed edges. The synthetic dataset contained 5,000 trips between 12 landmarks, and the landmark road explorer included 36 verified connections. These are reported values from the project run and may change if the road cache or configuration changes.
+How it works
+OpenStreetMap → OSMnx → Cached directed road graph
+                                ├─ Dijkstra shortest-distance route
+                                ├─ Approximate betweenness analysis
+                                └─ Local road-closure simulation
+
+Synthetic taxi-trip generator → Landmark demand graph → Louvain communities
+
+OSRM driving service → Route alternatives / estimated durations
+
+Flask API → HTML/CSS/JavaScript dashboard
+             ├─ Leaflet geographic map
+             ├─ Cytoscape Demand / Road Network Explorer
+             └─ Charts, route comparisons and closure results
+Routing and analysis rules
+1. Shortest distance: NetworkX Dijkstra finds a path on the cached OSM directed MultiDiGraph, using OSM edge length as the weight.
+2. Fastest estimated / lowest estimated fare: These modes compare only the alternatives returned by the configured OSRM driving service. Alternatives are not guaranteed to be exhaustive.
+3. Estimated fare: A configurable academic estimate using a base amount, distance component and time component; not an official taxi tariff.
+4. Road closure: One directed OSM edge identified by (u, v, key) is removed from a copy of the local graph before recomputing the shortest path. This does not change OSM or OSRM data.
+5. Community detection: Louvain operates on synthetic demand, not on the geographic road graph.
+6. Centrality: Real-road betweenness uses a bounded approximation to keep interactive analysis practical.
+Technology stack
+Layer	Technologies
+Backend	Python, Flask
+Graph processing	NetworkX, OSMnx
+Routing	Local Dijkstra; OSRM driving service
+Geographic map	Leaflet, OpenStreetMap tiles
+Network visualization	Cytoscape.js
+Charts and interface	Plotly.js, HTML, CSS, JavaScript
+
+
+Installation and local run
+Requirements
+- Python and pip installed
+- Internet connection for the first OSM road download and for OSRM requests / online map tiles
+# From the project directory
+python -m pip install -r requirements.txt
+python app.py
+Open http://127.0.0.1:5000 in your browser.
+
+On the first network-connected launch, OSMnx downloads the drivable road graph for the configured Karunagappally bounding box and saves it to:
+data/karunagappally_drive.graphml
+Later launches reuse that cached graph. If the download or cache loading fails, the interface reports that real roads are unavailable; it does not silently substitute simulated roads.
+Offline mode
+To prevent an initial OSM download:
+$env:ROUTEWISE_OFFLINE = "1"
+python app.py
+Offline mode does not create missing road data. Map tiles and OSRM alternatives may still need network access depending on the configured services.
+Configuration
+The application supports these optional environment variables:
+Variable	Purpose
+OSRM_BASE_URL	Base URL of the OSRM driving service
+OSRM_TIMEOUT_SECONDS	Timeout for OSRM requests
+OSM_GRAPH_CACHE	Path to the cached OSM road graph
+ROUTEWISE_FARE_BASE_INR	Base component of the estimated fare
+ROUTEWISE_FARE_PER_KM_INR	Distance component of the estimated fare
+ROUTEWISE_FARE_PER_MIN_INR	Time component of the estimated fare
+ROUTEWISE_OFFLINE	Set to 1 to forbid an initial OSM graph download
+
+
+Testing
+Run the offline smoke suite:
+python smoke_check.py
+The smoke tests mock OSRM and OSM graph loading, so they do not verify current external service availability. For a live demonstration, also open the dashboard and manually test route search, alternative selection, Demand/Road switching, and the road-closure simulator.
+Project structure
+RouteWise/
+├── app.py                   # Flask application and API endpoints
+├── routing_service.py       # OSM/OSRM routing and closure logic
+├── graph_analysis.py        # Graph Mining and analysis
+├── data_generator.py        # Synthetic taxi-demand generation
+├── smoke_check.py           # Offline smoke tests
+├── requirements.txt         # Python dependencies
+├── templates/
+│   └── index.html           # Dashboard page
+├── static/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── map.css
+│   └── js/
+│       └── app.js
+├── data/
+│   └── karunagappally_drive.graphml  # Cached OSM graph (if present)
+└── README.md
+Limitations
+- Taxi-demand trips are synthetic, not observed taxi activity.
+- No live traffic, congestion, taxi availability, verified closures, or navigation guidance.
+- OSRM route alternatives may be incomplete or unavailable; the public demo service may be rate-limited and has no production service-level guarantee.
+- Estimated fares are academic calculations, not real taxi prices.
+- OSM road data may be incomplete or outdated.
+- The 12-landmark Network Explorer is a simplified representation. Arbitrary custom-coordinate routes remain visible on Leaflet but cannot always highlight named landmark nodes without inventing intermediate stops.
+- Closure simulation is local to the copied OSM graph and is not reflected in external OSRM responses.
+Attribution
+- Road data and map tiles: © OpenStreetMap contributors
+- Road graph tooling: OSMnx
+- Graph algorithms: NetworkX
+- Driving-route service: OSRM (public demo service where configured)

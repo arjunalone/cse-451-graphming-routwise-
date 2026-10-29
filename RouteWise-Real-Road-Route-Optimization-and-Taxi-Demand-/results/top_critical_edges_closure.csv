@@ -1,0 +1,4 @@
+pair_id,origin,destination,edge_index_in_path,closed_u,closed_v,closed_key,road_name,length_m,original_distance_km,detour_distance_km,detour_increase_km,pct_increase,disconnected
+7,KSRTC Bus Stand,Vallikavu,41,9449219141,3399669802,0,Unnamed road,231.8,8.45,17.37,8.92,105.56,False
+7,KSRTC Bus Stand,Vallikavu,43,12197246450,2570500603,0,Unnamed road,1496.7,8.45,17.37,8.92,105.56,False
+7,KSRTC Bus Stand,Vallikavu,40,2570484447,9449219141,0,Unnamed road,273.3,8.45,17.37,8.92,105.56,False
